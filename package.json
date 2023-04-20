@@ -1,0 +1,27 @@
+{
+  "name": "lmdb-extend",
+  "version": "1.0.0",
+  "description": "A small utility to support extending the functionality of LMDB databases",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anywhichway/lmdb-extend.git"
+  },
+  "keywords": [
+    "lmdb"
+  ],
+  "author": "Simon Y. Blackwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anywhichway/lmdb-extend/issues"
+  },
+  "homepage": "https://github.com/anywhichway/lmdb-extend#readme",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "lmdb": "^2.7.11"
+  }
+}
