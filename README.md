@@ -26,6 +26,8 @@ index.js |     100 |      100 |     100 |     100 |
 
 # Release History (reverse chronological order)
 
+2023-04-21 1.1.1 Ensure over-ride contexts are bound to the database.
+
 2023-04-21 1.1.0 Added over-ride support for built-in functions.
 
 2023-04-20 1.0.0 Initial release
