@@ -26,6 +26,8 @@ index.js |   66.66 |       50 |   66.66 |   66.66 | 16-18,30-32
 
 # Release History (reverse chronological order)
 
+2023-05-06 1.2.2 Fixed line where property still not writable.
+
 2023-05-05 1.2.1 Added License section to README.md. Made redefined properties `writable:true`
 
 2023-04-23 1.2.0 Makes environment database available to child databases through the property `envdb`.

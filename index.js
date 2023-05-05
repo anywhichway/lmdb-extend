@@ -18,7 +18,7 @@ function withExtensions(db,extensions) {
                     return value.call(this,f,...args);
                 }})
         } else {
-            Object.defineProperty(db,key,{configurable:true,value});
+            Object.defineProperty(db,key,{configurable:true,writable:true,value});
         }
     })
     const openDB = db.openDB.bind(db);
