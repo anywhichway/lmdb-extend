@@ -1,6 +1,6 @@
 {
   "name": "lmdb-extend",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A small utility to support extending the functionality of LMDB databases",
   "type": "module",
   "main": "index.js",

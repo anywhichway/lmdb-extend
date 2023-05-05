@@ -20,11 +20,13 @@ Testing is conducted using `jest`.
 
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
-index.js |     100 |      100 |     100 |     100 |
+All files |   66.66 |       50 |   66.66 |   66.66 |
+index.js |   66.66 |       50 |   66.66 |   66.66 | 16-18,30-32
 
 
 # Release History (reverse chronological order)
+
+2023-05-05 1.2.1 Added License section to README.md. Made redefined properties `writable:true`
 
 2023-04-23 1.2.0 Makes environment database available to child databases through the property `envdb`.
 
@@ -33,3 +35,9 @@ index.js |     100 |      100 |     100 |     100 |
 2023-04-21 1.1.0 Added over-ride support for built-in functions.
 
 2023-04-20 1.0.0 Initial release
+
+# License
+
+This software is provided as-is under the [MIT license](http://opensource.org/licenses/MIT).
+
+Copyright (c) 2023, AnyWhichWay, LLC and Simon Y. Blackwell.
